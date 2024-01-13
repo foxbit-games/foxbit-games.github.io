@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Lilian';
+  src: url('fonts/Lilian.eot');
+  src: url('fonts/Lilian.eot') format('embedded-opentype'),
+       url('fonts/Lilian.woff2') format('woff2'),
+       url('fonts/Lilian.woff') format('woff'),
+       url('fonts/Lilian.ttf') format('truetype'),
+       url('fonts/Lilian.svg#Lilian') format('svg');
+
+}
+
+  .foxfont{
+    font-family: "Lilian";
+    text-transform: lowercase;
+    text-transform: capitalize;
+    letter-spacing:10px;
+    background-image: url("../img/intro-bg.png");
+    background-clip: text;
+    background-size: cover;
+    -webkit-background-clip: text;
+  
+  }
+  
+  .foxfont-logo{
+    font-family: "Lilian";
+    text-transform: lowercase;
+    text-transform: capitalize;
+    letter-spacing:8px;
+    font-size: x-large;
+    color:black;
+
+  }
+  .opacitybox{
+    background-color: #000;
+   
+    opacity: .7;
+  }
